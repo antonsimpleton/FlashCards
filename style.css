@@ -57,7 +57,7 @@ h1 {
     position: relative;
     transition: .5s 1s linear;
     transform-style: preserve-3d;
-
+    backface-visibility: hidden;
 
 }
 
@@ -84,8 +84,8 @@ h1 {
 }
 
 .back {
-    width: 99.2%;
-    height: 99.2%;
+    width: 99%;
+    height: 99%;
     background-color: #fe810e;
     color: #f9efe5;
     z-index: 1;
