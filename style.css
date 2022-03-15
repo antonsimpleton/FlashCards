@@ -97,7 +97,7 @@ h1 {
 }
 
 
-.card:focus {
+.card:active {
     transform: rotateY(180deg);
 }
 
