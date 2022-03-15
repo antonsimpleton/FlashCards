@@ -97,10 +97,8 @@ h1 {
 }
 
 
-@media(hover: hover) and (pointer: fine) {
-    .card:hover {
-        transform: rotateY(180deg);
-    }
+.card:focus {
+    transform: rotateY(180deg);
 }
 
 .perspective {
