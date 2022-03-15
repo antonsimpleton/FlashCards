@@ -96,6 +96,13 @@ h1 {
     transform: rotateY(180deg);
 }
 
+
+@media(hover: hover) and (pointer: fine) {
+    .card:hover {
+        transform: rotateY(180deg);
+    }
+}
+
 .perspective {
     perspective: 1000px;
 }
